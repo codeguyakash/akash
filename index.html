@@ -1,366 +1,251 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>codeguyakash</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akash (@codeguyakash)</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Montserrat"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <style>
-      body,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        font-family: "Fira Code", sans-serif;
-      }
-
-      a {
-        text-decoration: none;
-      }
-      .w3-row-padding img {
-        margin-bottom: 12px;
-      }
-      /* Set the width of the sidebar to 120px */
-      .w3-sidebar {
-        width: 120px;
-        background: #222;
-      }
-      /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-      #main {
-        margin-left: 120px;
-      }
-      .material-symbols-outlined {
-        font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 200, "opsz" 48;
-      }
-      /* Remove margins from "page content" on small screens */
-      @media only screen and (max-width: 600px) {
-        #main {
-          margin-left: 0;
-        }
-      }
-    </style>
   </head>
-  <body class="w3-black">
-    <!-- Icon Bar (Sidebar - hidden on small screens) -->
-    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-      <!-- Avatar image in top left corner -->
-      <!-- <img
-        src="https://img.icons8.com/ios-filled/512/console.png"
-        style="width: 100%"
-      /> -->
-      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-        <i class="fa fa-home w3-xxlarge"></i>
-        <p>HOME</p>
-      </a>
-      <a
-        href="#about"
-        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
-      >
-        <i class="fa fa-user w3-xxlarge"></i>
-        <p>ABOUT</p>
-      </a>
-      <a
-        href="#contact"
-        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
-      >
-        <i class="fa fa-envelope w3-xxlarge"></i>
-        <p>CONTACT</p>
-      </a>
+  <body>
+    <nav>
+      <div class="logo"><a href="#">CODEGUYAKASH</a></div>
+      <div>
+        <ul>
+          <li><a href="#hero" class="nav-items">Home</a></li>
+          <li><a href="#projects" class="nav-items">Projects</a></li>
+          <li><a href="#about" class="nav-items">About</a></li>
+          <li><a href="#contact" class="nav-items">Contact</a></li>
+          <li><a href="Akash-Resume.pdf" download="Akash-Resume.pdf" class="resume-btn">Resume</a></li>
+        </ul>
+      </div>
     </nav>
-
-    <!-- Navbar on small screens (Hidden on medium and large screens) -->
-    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-      <div
-        class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small"
-      >
-        <a href="#" class="w3-bar-item w3-button" style="width: 25% !important"
-          >HOME</a
-        >
-        <a
-          href="#about"
-          class="w3-bar-item w3-button"
-          style="width: 25% !important"
-          >ABOUT</a
-        >
-        <a
-          href="#photos"
-          class="w3-bar-item w3-button"
-          style="width: 25% !important"
-          >PHOTOS</a
-        >
-        <a
-          href="#contact"
-          class="w3-bar-item w3-button"
-          style="width: 25% !important"
-          >CONTACT</a
-        >
-      </div>
-    </div>
-
-    <!-- Page Content -->
-    <div class="w3-padding-large" id="main">
-      <!-- Header/Home -->
-      <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-        <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Akash.</h1>
-        <p>Frontend Software Engineer</p>
-        <img
-          src="https://images.unsplash.com/photo-1620570623737-efc0ec4ab486?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-          alt="boy"
-          class="w3-image"
-          width="100%"
-        />
-      </header>
-
-      <!-- About Section -->
-      <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-        <h2 class="w3-text-light-grey">Akash</h2>
-        <hr style="width: 200px" class="w3-opacity" />
-        <p>
-          Some text about me. Some text about me. I am lorem ipsum consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est laborum
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-        <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-        <p class="w3-wide">HTML</p>
-        <div class="w3-white">
-          <div class="w3-dark-grey" style="height: 28px; width: 100%"></div>
-        </div>
-        <p class="w3-wide">CSS</p>
-        <div class="w3-white">
-          <div class="w3-dark-grey" style="height: 28px; width: 100%"></div>
-        </div>
-        <p class="w3-wide">JavaScript</p>
-        <div class="w3-white">
-          <div class="w3-dark-grey" style="height: 28px; width: 100%"></div>
-        </div>
-        <p class="w3-wide">React Js</p>
-        <div class="w3-white">
-          <div class="w3-dark-grey" style="height: 28px; width: 65%"></div>
-        </div>
-        <p class="w3-wide">MERN Stack</p>
-        <div class="w3-white">
-          <div class="w3-dark-grey" style="height: 28px; width: 35%"></div>
-        </div>
-        <br />
-
-        <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-          <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">11+</span><br />
-            Partners
+    <main id="main-content">
+      <section id="hero" class="sec">
+        <div class="hero-sec child-sec">
+          <div>
+            <span
+            ><img
+            src="icons/giphy.gif"
+            alt="hii"
+            /></span>
+            <h1>Hello</h1>
+            <div class="h-name">I'm Akash</div>
+            <h2>I am a <span id="role-span">Software Engineer</span></h2>
+            <p>Welcome to my space!</p>
           </div>
-          <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">55+</span><br />
-            Projects Done
-          </div>
-          <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">89+</span><br />
-            Happy Clients
-          </div>
-          <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">150+</span><br />
-            Meetings
-          </div>
-        </div>
-
-        <a href="https://drive.google.com/file/d/1saePvC1c0-MBf8IU41XH1y_mGAjeWOOe/view" download>
-          <button class="w3-button w3-light-grey w3-padding-large w3-section">
-            <i class="fa fa-download"> </i> Download Resume
-          </button>
-        </a>
-
-        <!-- Grid for pricing tables -->
-        <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
-        <div class="w3-row-padding" style="margin: 0 -16px">
-          <div class="w3-half w3-margin-bottom">
-            <ul
-              class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off"
+          <div class="social">
+            <a
+              class="social-btn"
+              href="https://www.linkedin.com/in/codeguyakash/"
+              target="_blank"
+              >Linkedin</a
             >
-              <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-              <li class="w3-padding-16">Web Design</li>
-              <li class="w3-padding-16">Photography</li>
-              <li class="w3-padding-16">5GB Storage</li>
-              <li class="w3-padding-16">Mail Support</li>
-              <li class="w3-padding-16">
-                <h2>$ 10</h2>
-                <span class="w3-opacity">per month</span>
-              </li>
-              <li class="w3-light-grey w3-padding-24">
-                <button
-                  class="w3-button w3-white w3-padding-large w3-hover-black"
-                >
-                  Apply
-                </button>
-              </li>
-            </ul>
+            
+            <a
+              class="social-btn"
+              href="https://github.com/codeguyakash"
+              target="_blank"
+              >Github</a
+            >
+            <a
+              class="social-btn"
+              href="https://twitter.com/codeguyakash"
+              target="_blank"
+              >Twitter</a
+            >
+            <a
+              class="social-btn"
+              href="https://medium.com/@codeguyakash"
+              target="_blank"
+              >Medium</a
+            >
           </div>
-
-          <div class="w3-half">
-            <ul
-              class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off"
-            >
-              <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-              <li class="w3-padding-16">Web Design</li>
-              <li class="w3-padding-16">Photography</li>
-              <li class="w3-padding-16">50GB Storage</li>
-              <li class="w3-padding-16">Endless Support</li>
-              <li class="w3-padding-16">
-                <h2>$ 25</h2>
-                <span class="w3-opacity">per month</span>
-              </li>
-              <li class="w3-light-grey w3-padding-24">
-                <button
-                  class="w3-button w3-white w3-padding-large w3-hover-black"
-                >
-                  Apply
-                </button>
-              </li>
-            </ul>
+        </div>
+      </section>
+      <hr />
+      <section id="about">
+        <div class="child-sec flex">
+          <div>
+            <h3 class="sub-heading">About Me</h3>
+            <p style="font-size: 1.1rem;">
+              Hello, I am Akash. I am a full-time Software Engineer. <br />
+              and part-time content creator at Non Breaking Code.<br />
+              I have experience working with React and Node. <br />
+              I love to create things.
+            </p>
           </div>
-          <!-- End Grid/Pricing tables -->
+          <div>
+            <img
+              src="https://codeguyakash.github.io/server/image.png"
+              alt="about-pic"
+            />
+          </div>
         </div>
-
-        <!-- Testimonials -->
-        <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>
-        <span class="material-symbols-outlined testimonials">
-          account_circle
-        </span>
-        <p>
-          <span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty
-          Schools.
-        </p>
-        <p>John Doe saved us from a web disaster.</p>
-        <br />
-
-        <span class="material-symbols-outlined testimonials">
-          account_circle
-        </span>
-        <p>
-          <span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at
-          Company.
-        </p>
-        <p>No one is better than John Doe.</p>
-        <!-- End About Section -->
-      </div>
-      <!-- Contact Section -->
-      <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-        <h2 class="w3-text-light-grey">Contact Me</h2>
-        <hr style="width: 200px" class="w3-opacity" />
-
-        <div class="w3-section">
-          <p>
-            <i
-              class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"
-            ></i>
-            East Delhi-110091, India
-          </p>
-          <p>
-            <i
-              class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"
-            ></i>
-            Phone: +91 9718125109
-          </p>
-          <p>
-            <i
-              class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"
-            >
-            </i>
-            Email:
-            <a href="mailto:codeguyakash@gmail.com">codeguyakash@gmail.com</a>
-          </p>
+      </section>
+      <hr />
+      <section id="projects">
+        <div class="child-sec flex">
+          <div>
+            <h3 class="sub-heading">Projects</h3>
+            <h4>Safe Notes</h4>
+            <p class="para">
+              Hello, I am Akash. I am a full-time Software Engineer. <br />
+              Hello, I am Akash. I am a full-time Software Engineer. <br />
+              Hello, I am Akash. I am a full-time Software Engineer. <br />
+              Hello, I am Akash. I am a full-time Software Engineer. <br />
+              and part-time content creator at Non Breaking Code.
+            </p>
+            <a href="#">Source Github</a>
+            <a href="#">Link</a>
+          </div>
+          <div>
+            <img
+              src="https://www.ihsavru.com/static/5b09d5bc513c59e880ce0ace1c1b86bd/64b17/skiller_whale.jpg"
+              alt="about-pic"
+            />
+          </div>
         </div>
-        <br />
-        <p>Let's get in touch. Send me a message:</p>
-
-        <form action="#">
-          <p>
-            <input
-              class="w3-input w3-padding-16"
-              type="text"
-              placeholder="Name"
-              required
-              name="Name"
+        <div class="child-sec flex">
+          <div>
+            <img
+              src="https://www.ihsavru.com/static/5b09d5bc513c59e880ce0ace1c1b86bd/64b17/skiller_whale.jpg"
+              alt="about-pic"
             />
-          </p>
-          <p>
-            <input
-              class="w3-input w3-padding-16"
-              type="text"
-              placeholder="Email"
-              required
-              name="Email"
+          </div>
+          <div>
+            <h4>Safe Notes</h4>
+            <p class="para">
+              Hello, I am Akash. I am a full-time Software Engineer. <br />
+              Hello, I am Akash. I am a full-time Software Engineer. <br />
+              Hello, I am Akash. I am a full-time Software Engineer. <br />
+              Hello, I am Akash. I am a full-time Software Engineer. <br />
+              and part-time content creator at Non Breaking Code.
+            </p>
+            <a href="#">Source Github</a>
+            <a href="#">Link</a>
+          </div>
+        </div>
+        <div class="child-sec flex">
+          <div>
+            <h4>Safe Notes</h4>
+            <p class="para">
+              Hello, I am Akash. I am a full-time Software Engineer. <br />
+              Hello, I am Akash. I am a full-time Software Engineer. <br />
+              Hello, I am Akash. I am a full-time Software Engineer. <br />
+              Hello, I am Akash. I am a full-time Software Engineer. <br />
+              and part-time content creator at Non Breaking Code.
+            </p>
+            <a href="#">Source Github</a>
+            <a href="#">Link</a>
+          </div>
+          <div>
+            <img
+              src="https://www.ihsavru.com/static/5b09d5bc513c59e880ce0ace1c1b86bd/64b17/skiller_whale.jpg"
+              alt="about-pic"
             />
-          </p>
-          <p>
-            <input
-              class="w3-input w3-padding-16"
-              type="text"
-              placeholder="Subject"
-              required
-              name="Subject"
-            />
-          </p>
-          <p>
-            <input
-              class="w3-input w3-padding-16"
-              type="text"
-              placeholder="Message"
-              required
-              name="Message"
-            />
-          </p>
-          <p>
-            <button
-              class="w3-button w3-light-grey w3-padding-large"
-              type="submit"
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="skills">
+        <div>
+          <h3 class="sub-heading skl">Skills</h3>
+        </div>
+        <div class="child-sec flex">
+          <div>
+            <div class="skill" id="1">
+              <img
+                src="icons/database.png"
+                alt="Mongodb"
+                class="skills-icons"
+              />
+              <div>MongoDB</div>
+            </div>
+            <div class="skill" id="2">
+              <img src="icons/node-js.png" alt="npde" class="skills-icons" />
+              <div>NodeJs</div>
+            </div>
+          </div>
+          <div>
+            <div class="skill" id="4">
+              <img
+                src="icons/ExpressJS.png"
+                alt="expressjs"
+                class="skills-icons"
+              />
+              <div>ExpressJs</div>
+            </div>
+            <div class="skill" id="5">
+              <img src="icons/git.png" alt="git" class="skills-icons" />
+              <div>Git & Github</div>
+            </div>
+          </div>
+          <div>
+            <div class="skill" id="7">
+              <img src="icons/reactjs.png" alt="reactjs" class="skills-icons" />
+              <div>ReactJs</div>
+            </div>
+            <div class="skill" id="8">
+              <img src="icons/js.png" alt="javascript" class="skills-icons" />
+              <div>JavaScript</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section id="contact">
+        <div class="child-sec">
+          <div class="c-m">
+            <h3 class="sub-heading">Work with Me</h3>
+            <p class="para">
+              If you are interested in working with me, drop me a message!
+            </p>
+            <div class="wwm" >
+              <div><img src="image/profile-pic.jpg" class="p-pic" alt="profile"></div>
+              <div><div class="name">Akash</div>
+              <a href="mailto:codeguyakash@gmail.com" class="email">codeguyakash@gmail.com</a></p></div>
+            </div>
+          </div>
+          <div>
+            <div class="social">
+              <a
+                class="social-btn"
+                href="https://www.linkedin.com/in/codeguyakash/"
+                target="_blank"
+                >Linkedin</a
+              >
+              <a
+                class="social-btn"
+                href="https://github.com/codeguyakash"
+                target="_blank"
+                >Github</a
+              >
+              <a
+                class="social-btn"
+                href="https://twitter.com/codeguyakash"
+                target="_blank"
+                >Twitter</a
+              >
+              <a
+              class="social-btn"
+              href="https://medium.com/@codeguyakash"
+              target="_blank"
+              >Medium</a
             >
-              <i class="fa fa-paper-plane"></i> SEND MESSAGE
-            </button>
-          </p>
-        </form>
-        <!-- End Contact Section -->
-      </div>
-
-      <!-- Footer -->
-      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-        <a target="_blank" href="https://www.facebook.com/codeguyakash">
-          <i class="fa fa-facebook-official w3-hover-opacity"></i>
-        </a>
-        <a target="_blank" href="https://www.instagram.com/codeguyakash">
-          <i class="fa fa-instagram w3-hover-opacity"></i>
-        </a>
-        <a target="_blank" href="https://twitter.com/codeguyakash">
-          <i class="fa fa-twitter w3-hover-opacity"></i>
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/codeguyakash">
-          <i class="fa fa-linkedin w3-hover-opacity"></i>
-        </a>
-        <p class="w3-medium">Made by @codeguyakash</p>
-        <!-- End footer -->
-      </footer>
-
-      <!-- END PAGE CONTENT -->
-    </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+    </main>
+    <footer>
+      <div class="footer-logo">CODEGUYAKASH</div>
+    </footer>
   </body>
 </html>
