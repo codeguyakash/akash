@@ -98,7 +98,7 @@ p {
   margin: 2.5rem 0;
 }
 .social-btn {
-  margin-right: 1rem;
+  margin-right: 10px;
   border: 2px solid #fafafa;
   padding: 0.5rem 1rem;
   border-radius: 0.8rem;
@@ -342,7 +342,17 @@ footer {
     margin: 1rem;
   }
   .social {
-    margin: 1rem 0.05rem;
+    margin-top: 20px;
+  }
+  .social-btn {
+    margin-right: 10px;
+    font-size: 0.7rem;
+    border: 2px solid #fafafa;
+    padding: 0.5rem 1rem;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
   }
   /* about-section */
   h3 {
