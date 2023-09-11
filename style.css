@@ -112,10 +112,7 @@ p {
   color: #121212;
 }
 /* about-section */
-h3 {
-  font-size: 1.75rem;
-  margin: 28px 0 32px;
-}
+
 h4 {
   font-size: 1.3rem;
   color: greenyellow;
@@ -244,7 +241,6 @@ footer {
 /* for mobile phone  */
 @media only screen and (max-width: 600px) {
   * {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
@@ -266,19 +262,10 @@ footer {
     justify-content: space-between;
     align-items: center;
   }
-  ul {
-    margin: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-  }
+  
   #m-icon {
     width: 50px;
     border-radius: 10rem;
-  }
-  li {
-    list-style: none;
-    font-size: 1rem;
   }
   .resume-btn {
     border: 2px solid #fafafa;
@@ -355,10 +342,7 @@ footer {
     z-index: 2;
   }
   /* about-section */
-  h3 {
-    font-size: 1.75rem;
-    margin: 28px 0 32px;
-  }
+  
   h4 {
     font-size: 1.3rem;
     color: greenyellow;
@@ -381,14 +365,10 @@ footer {
     transition: 0.5s;
     box-shadow: 1px 1px 20px 2px rgba(45, 45, 45, 0.53);
   }
-  .sub-heading {
-    font-size: 1.75rem;
-    margin: 28px 0 32px;
-    color: #fafafa;
-  }
+
   #projects .child-sec img {
-    width: 410px;
-    height: 310px;
+    width: 380px;
+    height: 280px;
     border-radius: 0.9rem;
     transition: 0.5s;
     border: 1px solid #7f7f7f;
@@ -398,6 +378,9 @@ footer {
   #projects .child-sec {
     border-bottom: 2px solid rgb(35, 35, 35);
     margin: 0;
+  }
+  #projects .child-sec .pp {
+    margin-left: 28px;
   }
   #projects .child-sec .left {
     border-radius: 0.9rem;
@@ -418,7 +401,7 @@ footer {
     margin: 50px 30px;
   }
   .skill {
-    width: 450px;
+    width: 370px;
     height: 80px;
     transition: 0.5s;
   }
