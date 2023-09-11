@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <nav>
+  <nav class="d-nav">
     <div class="logo"><a href="#">CODEGUYAKASH</a></div>
     <div>
       <ul>
@@ -23,6 +23,14 @@
         <li><a href="#contact" class="nav-items">Contact</a></li>
         <li><a href="Akash-Resume.pdf" download="Akash-Resume.pdf" class="resume-btn">Resume</a></li>
       </ul>
+    </div>
+  </nav>
+  <nav class="m-nav">
+    <div>
+      <img id="m-icon" src="icons/logo.gif" alt="sd">
+    </div>
+    <div>
+        <a href="Akash-Resume.pdf" download="Akash-Resume.pdf" class="resume-btn">Resume</a>
     </div>
   </nav>
   <main id="main-content">
@@ -60,6 +68,7 @@
         </div>
       </div>
     </section>
+    <hr>
     <section id="projects">
       <div class="child-sec flex">
         <div>
@@ -76,6 +85,7 @@
           <a href="https://github.com/codeguyakash/Note_Application_BE" target="_blank">Source Code</a>
         </div>
       </div>
+      <hr>
       <div class="child-sec flex">
         <div>
           
@@ -84,12 +94,13 @@
             This is Note Create Web applications and user can perform CRUD operation like Create, Read, Update and Delete Notes. which is created using ReactJS.
           </p>
           <a href="https://github.com/codeguyakash/Note_Application_FE" target="_blank">Source Code</a>
-          <a href="https://codeguyakash.github.io/SafeNotes/" target="_blank">SafeNotes</a>
+          <a href="https://codeguyakash.github.io/SafeNotes/" target="_blank">Demo</a>
         </div>
         <div>
           <img src="image/safenotes.jpg" alt="safenotes-project-image" />
         </div>
       </div>
+      <hr>
       <div class="child-sec flex">
         <div>
           <img src="image/shoping.png" alt="about-pic" />
@@ -101,9 +112,10 @@
 
           </p>
           <a href="https://github.com/codeguyakash/Shoping-Website" target="_blank">Source Code</a>
-          <a href="https://codeguyakash.github.io/Shoping-Website/" target="_blank">Shoping-Website</a>
+          <a href="https://codeguyakash.github.io/Shoping-Website/" target="_blank">Demo</a>
         </div>
       </div>
+      <hr>
       <div class="child-sec flex">
         <div>
           <h4>Neumorpic Calculator</h4>
@@ -111,19 +123,20 @@
             Neumorphic Design Calculator by using (HTML, CSS and JavaScript).
           </p>
           <a href="https://github.com/codeguyakash/Neumorpic-Calculator" target="_blank">Source Code</a>
-          <a href="https://codeguyakash.github.io/Neumorpic-Calculator/" target="_blank">Link</a>
+          <a href="https://codeguyakash.github.io/Neumorpic-Calculator/" target="_blank">Demo</a>
         </div>
         <div>
           <img src="image/neumorphic.jpg" alt="about-pic" />
         </div>
       </div>
     </section>
+    <hr>
     <section id="skills">
       <div>
         <h3 class="sub-heading skl">Skills</h3>
       </div>
       <div class="child-sec flex">
-        <div>
+        <div class="skl-div">
           <div class="skill" id="1">
             <img src="icons/html-5.png" alt="npde" class="skills-icons" />
             <div>HTML5</div>
@@ -138,7 +151,7 @@
             <div>NodeJs</div>
           </div>
         </div>
-        <div>
+        <div class="skl-div">
           <div class="skill" id="5">
             <img src="icons/css-3.png" alt="git" class="skills-icons" />
             <div>CSS</div>
@@ -152,7 +165,7 @@
             <div>Git & Github</div>
           </div>
         </div>
-        <div>
+        <div class="skl-div">
           <div class="skill" id="9">
             <img src="icons/js.png" alt="javascript" class="skills-icons" />
             <div>JavaScript</div>
@@ -200,6 +213,7 @@
     <!-- <div class="footer-logo">CODEGUYAKASH</div> -->
     <div class="logo footer-logo"><a href="#">CODEGUYAKASH</a>
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
