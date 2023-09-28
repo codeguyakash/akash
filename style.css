@@ -1,3 +1,8 @@
+:root {
+  --primary-color: rgb(18, 18, 18);
+  --seconday-color: rgb(18, 18, 18);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +11,22 @@
   font-family: "Roboto", sans-serif;
   /* font-family: 'Fira Code', monospace; */
 }
+/* a{
+  cursor: none;
+} */
+
+.mouse {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  mix-blend-mode: difference;
+  /* transition: 0.2s; */
+}
+
 body {
+  cursor: none;
   background-color: rgb(18, 18, 18);
 }
 
@@ -194,7 +214,7 @@ footer {
   padding: 1rem;
   margin: 1rem 0.5rem;
   border: 2px solid #fafafa;
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: 0.5s;
 }
 .skill:hover {
@@ -254,7 +274,7 @@ footer {
     width: 27rem;
     margin: 0px auto;
   }
-  .d-nav{
+  .d-nav {
     display: none;
   }
   .m-nav {
@@ -263,7 +283,7 @@ footer {
     justify-content: space-between;
     align-items: center;
   }
-  
+
   #m-icon {
     width: 50px;
     border-radius: 10rem;
@@ -343,7 +363,7 @@ footer {
     z-index: 2;
   }
   /* about-section */
-  
+
   h4 {
     font-size: 1.3rem;
     color: greenyellow;
